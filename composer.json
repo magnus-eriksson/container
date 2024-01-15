@@ -1,0 +1,21 @@
+{
+    "name": "maer/container",
+    "description": "Small Dependency injection container",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maer\\Container\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "mange@reloop.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
